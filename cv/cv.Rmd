@@ -1,0 +1,80 @@
+---
+name: Benjamin
+surname: Elsner
+address: "University College Dublin, School of Economics, Belfield, Dublin 4, Ireland"
+phone: +353 1 716 8446
+www: benjaminelsner.com
+email: "benjamin.elsner@ucd.ie"
+twitter: ben_elsner
+github: benelsner82
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::moderncv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Research Interests
+
+ * I poisoned myself doing research.
+ * I was the first woman to win a Nobel prize
+ * I was the first person and only woman to win a Nobel prize in two different sciences.
+
+
+# Current Positions
+
+```{r}
+library(tibble)
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Assistant Professor (with tenure)", "2018ß", "University College Dublin", "Dublin, Ireland",
+  "Research Fellow", "2018-", "Institute of Labor Economics (IZA)", "Bonn, Germany",
+  "Research Fellow", "2016-", "Centre for Research and Analysis of Migration (CReAM), University College London", "London, UK",
+  "Research Fellow", "2018-", "Geary Institute for Public Policy", "Dublin, Ireland",  
+) %>% 
+  detailed_entries(Position, Year, Institution, Where)
+```
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD Economics", "2013", "Trinity College Dublin", "Dublin, Ireland",
+  "M.A. Economics", "2008", "Universität Regensburg", "Regensburg, Germany",
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+
+
+# Nobel Prizes
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
+  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+) %>% 
+  brief_entries(
+    glue::glue("Nobel Prize in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+# Publications
+
+```{r}
+library(dplyr)
+knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+
+bibliography_entries("packages.bib") %>%
+  arrange(desc(author$family), issued)
+```
+
