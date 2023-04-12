@@ -14,7 +14,10 @@ output: vitae::moderncv
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
+library(dplyr)
 ```
+
+
 
 # Research Interests
 
@@ -29,7 +32,7 @@ library(vitae)
 library(tibble)
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where,
-  "Assistant Professor (with tenure)", "2018ß", "University College Dublin", "Dublin, Ireland",
+  "Assistant Professor (with tenure)", "2018", "University College Dublin", "Dublin, Ireland",
   "Research Fellow", "2018-", "Institute of Labor Economics (IZA)", "Bonn, Germany",
   "Research Fellow", "2016-", "Centre for Research and Analysis of Migration (CReAM), University College London", "London, UK",
   "Research Fellow", "2018-", "Geary Institute for Public Policy", "Dublin, Ireland",  
@@ -70,11 +73,134 @@ tribble(
 
 # Publications
 
+## Refereed Journals
 ```{r}
-library(dplyr)
-knitr::write_bib(c("vitae", "tibble"), "packages.bib")
+knitr::write_bib(c("izawol22",
+                   "itax18",
+                   "obes18",
+                   "jhr18",
+                   "jole17",
+                   "jie13", 
+                   "jpopecon13"), 
+                 "publications.bib")
 
-bibliography_entries("packages.bib") %>%
-  arrange(desc(author$family), issued)
+bibliography_entries("publications.bib") %>%
+  arrange(desc(issued$year))
+
 ```
 
+## Edited Book
+
+```{r}
+knitr::write_bib(c("borjas18"), 
+                 "books.bib")
+
+bibliography_entries("books.bib") %>%
+  arrange(desc(issued$year))
+
+```
+
+## Book Chapters and Policy Reports
+
+```{r}
+knitr::write_bib(c("worldscientific"), 
+                 "chapters.bib")
+
+bibliography_entries("chapters.bib") %>%
+  arrange(desc(issued$year))
+
+```
+
+
+# Working Papers 
+
+```{r}
+knitr::write_bib(c("biavaschi13", "bellani22", "chevalier23"), 
+                 "workingpapers.bib")
+
+bibliography_entries("workingpapers.bib") %>%
+  arrange(desc(issued$year))
+
+```
+
+
+
+# Work in Progress 
+
+
+- The Impact of Brexit on Irish Firms and Workers (joint with Eoin Flaherty and Stefanie Haller)
+- Gender Norms and Time Use: Pan-European Evidence from School Closures during Covid-19 (joint with Manvi Jindal, Massimiliano Mascherini and Sanna Nivakoski)
+
+
+
+# Grants
+
+```{r}
+library(tibble)
+tribble(
+  ~ Funder, ~ Year, ~ Details, ~ Sum,
+  "Irish Research Council", "2021", "Government of Ireland Postgraduate Scholarship", "Co-PI with Michele Gubello, 55,000€",  
+  "World Bank, UK Aid and UNHCR", "2020", "Forced Migration, Social Cohesion and Conflict", "PI, 25,000USD",  
+  "Irish Research Council", "2020", "Government of Ireland Postgraduate Scholarship", "Co-PI with Diego Zambiasi, 48,000€",  
+  "Irish Research Council", "2019", "Government of Ireland Postgraduate Scholarship", "Co-PI with Emanuele Albarosa, 72,000€",
+  "German Ministry of Education (BMBF)", "2017", "Determinants of College Dropout (with Ingo E. Isphording, Florian Wozny and Ulf Zölitz)", "170,000€",
+  "Irish Research Council (IRCHSS)", "2011", "Government of Ireland Postgraduate Scholarship", "PI, 16,000€",
+  "Strategic Innovation Fund", "2008", "PhD Scholarship", "PI, 48,000€",  
+  "Haniel Foundation", "2005", "Go East Scholarship for Studies Abroad", "PI, 3,000€",  
+) %>% 
+  detailed_entries(Funder, Year, Details, Sum)
+```
+
+
+# Honors and Awards
+
+```{r}
+library(tibble)
+tribble(
+  ~ Award, ~ Year, ~ Details,
+  "Teaching Excellence Award", "2022", "UCD College of Social Sciences and Law",
+  "Best Paper Award", "2018", "Spring Meetings of Young Economists",  
+  "Novartis Prize", "2018", "Best Paper in Health Economics, Irish Economic Association", 
+  "Best Paper Prize", "2016", "Warsaw International Economic Meeting",  
+  "Excellence in Refereeing Award", "2015", "Labour Economics",
+  "FEEM Award", "2010", "Best Paper Presented by a Young Economist at the EEA Conference",
+  "Christa Lindner Preis", "2008", "Best M.A. Thesis at the University of Regensburg",
+) %>% 
+  detailed_entries(Award, Year, Details)
+```
+
+
+# Reviewing
+
+## Refereed Journals
+
+American Economic Review (2x), American Economic Review: Insights, Review of Economic Studies (2x), Journal of Human Resources (6x), Journal of International Economics (2x), Journal of Labor Economics (4x), Journal of Public Economics (2x), Journal of the European
+Economic Association (3x), Management Science, Review of Economics \& Statistics (3x), Canadian Journal of Economics, European Economic Review (2x), Industrial and Labor Relations Review, Journal of Applied Econometrics, Journal of Econometrics, Journal of
+Economic Behavior and Organization (3x), Journal of Economic Dynamics and
+Control,  Journal of Economic Geography, Journal of Population Economics (3x), Journal of the Association of Environmental and Resource Economists, Journal of Urban Economics (2x), Labour Economics (3x),
+Regional Science and Urban Economics (3x), Scandinavian Journal of Economics, American Journal of Health Economics, Economics of Education Review (4x), Economic Policy, Health Economics,
+Journal of Regional Science, Review of Development Economics, Review of
+Income and Wealth, Review of International Economics, China Economic Review, Economic Systems, Empirical Economics (2x), Fiscal Studies, German Economic
+Review (3x), International Journal of Manpower, International Migration Review, IZA Journal of Development and Migration, IZA Journal of European Labor
+Studies, IZA Journal of Labor Economics, IZA Journal of Migration, IZA World
+of Labor (3x), Journal of Applied Economics, Journal of Common Market Studies, Journal of Development Studies, Migration Studies, Oxford Development Studies, Review of the World Economy, Scottish Journal of Political Economy, Social Science and Medicine, Socio-Economic Review
+
+
+## Grant Reviews
+
+GLM-LIC (IZA and DFID, 2x)
+
+OeNB Jubiläumsfonds (Austrian National Bank)
+
+Czech Science Foundation (2x)
+
+Economic and Social Resarch Institute (ESRI; review of policy report)
+
+
+## Conference Selection Committees
+
+DIAL conference "Barriers to Development" (2015)
+
+Annual Conference of the German Economic Association (Verein für Socialpolitik, 2017, 2020)
+
+Annual Meetings of the European Economic Association (2023)
