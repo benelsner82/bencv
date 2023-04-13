@@ -8,7 +8,7 @@ email: "benjamin.elsner@ucd.ie"
 twitter: ben_elsner
 github: benelsner82
 date: "`r format(Sys.time(), '%B %Y')`"
-output: vitae::moderncv
+output: vitae::hyndman
 ---
 
 ```{r setup, include=FALSE}
@@ -40,6 +40,7 @@ tribble(
   detailed_entries(Position, Year, Institution, Where)
 ```
 
+# Past Positions
 
 # Education
 
@@ -250,7 +251,7 @@ Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; 
 
 # Reviewing
 
-## Refereed Journals
+## Refereed Journals (87 Articles)
 
 American Economic Review (2x), American Economic Review: Insights, Review of Economic Studies (2x), Journal of Human Resources (6x), Journal of International Economics (2x), Journal of Labor Economics (4x), Journal of Public Economics (2x), Journal of the European
 Economic Association (3x), Management Science, Review of Economics \& Statistics (3x), Canadian Journal of Economics, European Economic Review (2x), Industrial and Labor Relations Review, Journal of Applied Econometrics, Journal of Econometrics, Journal of
@@ -297,6 +298,8 @@ Annual Meetings of the European Economic Association (2023)
 
 
 # Academic Service
+
+## Editorships
 
 ## Managerial Roles
 
