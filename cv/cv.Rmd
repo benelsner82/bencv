@@ -170,6 +170,84 @@ tribble(
 ```
 
 
+# Invited Seminars
+
+## 2023
+University of Surrey, University of Padova, IRVAPP-FBK (Trento), University of Bolzano
+
+## 2022
+UCD Geary Institute, KU Leuven (LICOS), University of Strathclyde
+
+## 2021
+University of Innsbruck, KU Ingolstadt-Eichstätt
+
+## 2020
+University of Groningen, Graduate Institute (Geneva), University of St. Andrews, University of Cardiff
+
+## 2019
+Universit\`{a} degli Studi di Milano-Bicocca, Queen's University Belfast, ESRI, VU Amsterdam, University of Vilnius, University of Potsdam
+
+## 2018
+UCD Geary Institute, Trinity College Dublin, CERGE-EI Prague, Masaryk University Brno, Paris School of Economics, University of Trier, LISER (Luxembourg)
+
+## 2017
+University College Dublin, Paris School of Economics, OECD, University of Freiburg, RWI Essen, IOS Regensburg, University of Regensburg
+
+## 2016 
+SOFI Stockholm, Maastricht University, University of Cologne,  University of Colorado Denver, University of Leicester, University of Oxford, University of Duisburg-Essen, University of Kent, University of Bayreuth, University of Bonn
+
+## 2015
+University of Mainz, IAB Nuremberg, Modul University Vienna, WU Vienna, Concordia University, University of Mannheim, University of Regensburg, HHU Dusseldorf
+
+## 2014
+DIAL (Paris), NIW (Hannover), University of Hamburg, Temple University, George Washington University, HHU Dusseldorf, University of Heidelberg, University of Freiburg, IRES-UC Louvain
+
+## 2013
+University College Dublin, University of Southern Denmark, IOS Regensburg, University of Münster
+
+## 2012
+University of Edinburgh, LMU Munich, IZA Bonn, University of Stirling
+
+## 2011
+UCD Geary Institute, NUI Maynooth, SSE Riga, Bocconi University, Fondazione Eni Enrico Mattei (Milan), Institute for East European Studies (Regensburg)
+
+## 2010
+Trinity College Dublin
+
+
+# Conference Presentations
+
+
+
+# Supervision
+
+## PhD Students 
+
+Emanuele Albarosa (UCD, 2018-2022; first placement: Economist, IOM/United Nations) 
+
+Diego Zambiasi (UCD, 2018-2022, first placement: Lecturer with tenure, Newcastle University) 
+
+Stefano Ceolotto (TCD, co-advisor, 2019-2022, first placement: Post-Doc, ESRI) 
+
+Mohsin Javed (UCD, 2019-) 
+
+Michele Gubello (UCD, 2019-, first placement: Post-Doc, ESRI) 
+
+Dimitrios Argyros (UCD, 2021-) 
+
+Manvi Jindal (UCD, 2021-) 
+
+Aditi Kharb (UCD, 2022-) 
+
+
+## Post-Doc 
+Nicolas Apfel (letter writer 2020-2022; PhD at U Regensburg; first placement: Post-Doc at U Surrey; currently permanent Lecturer at U Southampton)
+
+## M.Sc Students (first placement in brackets)
+Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; PhD student KU Leuven), Rafan Alfrayyan (UCD, 2019, Economist at Saudi Ministry of Finance), Jeff Concannon (UCD, 2021; Analyst at Frontier Economics), Wendy Disch (UCD, 2021; Researcher at ESRI), Stephen Fowler (UCD, 2021; MPP Harris School, U Chicago), Anthony Jordan (UCD, 2021, Irish Government Economic and Evaluation Service), Cormac Harten (UCD, 2022, Analyst at Glenveagh Properties), Cecilie Gjendem (UCD, 2022, Analyst at LinkedIn), Ian Moran (UCD, 2023) 
+
+
+
 # Reviewing
 
 ## Refereed Journals
@@ -204,3 +282,22 @@ DIAL conference "Barriers to Development" (2015)
 Annual Conference of the German Economic Association (Verein für Socialpolitik, 2017, 2020)
 
 Annual Meetings of the European Economic Association (2023)
+
+
+# Teaching
+
+## Innovations
+
+## Qualification
+
+## Courses
+
+
+## Guest Lectures and Masterclasses
+
+
+# Academic Service
+
+## Managerial Roles
+
+## Conference Organization

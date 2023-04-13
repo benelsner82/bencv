@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.20)  12 APR 2023 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.3.20)  13 APR 2023 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -631,18 +631,38 @@ Package fancyhdr Warning: \footskip is too small (60.0pt):
 (fancyhdr)                Make it at least 68.00002pt, for example:
 (fancyhdr)                \setlength{\footskip}{68.00002pt}.
 
-[4] (./cv.aux)
+[4]
+Overfull \hbox (1.53928pt too wide) has occurred while \output is active
+ []|[] 
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (60.0pt): 
+(fancyhdr)                Make it at least 68.00002pt, for example:
+(fancyhdr)                \setlength{\footskip}{68.00002pt}.
+
+[5]
+Overfull \hbox (1.53928pt too wide) has occurred while \output is active
+ []|[] 
+ []
+
+
+Package fancyhdr Warning: \footskip is too small (60.0pt): 
+(fancyhdr)                Make it at least 68.00002pt, for example:
+(fancyhdr)                \setlength{\footskip}{68.00002pt}.
+
+[6] (./cv.aux)
 Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: A9C88F8571517B9A46E904594101A140;2074.
+(rerunfilecheck)             Checksum: F165543606AFAC928C4444C663FAC4E7;5115.
  ) 
 Here is how much of TeX's memory you used:
- 16048 strings out of 476025
- 283017 string characters out of 5790017
+ 16174 strings out of 476025
+ 284617 string characters out of 5790017
  1874388 words of memory out of 5000000
- 36078 multiletter control sequences out of 15000+600000
- 565360 words of font info for 119 fonts, out of 8000000 for 9000
+ 36134 multiletter control sequences out of 15000+600000
+ 565905 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,13n,79p,999b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,13n,80p,999b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/dejavu/DejaVuSansMono-
 Oblique.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/fontawesome5
 /FontAwesome5Brands-Regular.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1
@@ -654,10 +674,10 @@ t/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/typ
 e1/public/lm/lmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/l
 m/lmri10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmro10.p
 fb>
-Output written on cv.pdf (4 pages, 264486 bytes).
+Output written on cv.pdf (6 pages, 276807 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 57 named destinations out of 1000 (max. 500000)
- 31361 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 373 compressed objects within 4 object streams
+ 115 named destinations out of 1000 (max. 500000)
+ 31585 words of extra memory for PDF output out of 35830 (max. 10000000)
 
