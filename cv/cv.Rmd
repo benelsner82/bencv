@@ -15,6 +15,9 @@ output: vitae::hyndman
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 library(dplyr)
+library(scholar)
+
+scholarben <- get_profile("jvyIv10AAAAJ")
 ```
 
 
@@ -74,7 +77,12 @@ tribble(
 
 # Publications
 
+**Number of citations**: `r scholarben$total_cites`; **h-index**: `r scholarben$h_index`
+
 ## Refereed Journals
+
+
+
 ```{r}
 knitr::write_bib(c("izawol22",
                    "itax18",
