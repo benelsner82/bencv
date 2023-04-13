@@ -304,3 +304,11 @@ Annual Meetings of the European Economic Association (2023)
 ## Managerial Roles
 
 ## Conference Organization
+
+# Skills
+
+## Software
+R, RMarkdown, Stata, LaTeX, HTML
+
+## Languages
+German (native), English (fluent), French, Polish (good), Italian, Czech, Russian (some)
