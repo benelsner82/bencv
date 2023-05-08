@@ -12,21 +12,34 @@ output: vitae::hyndman
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
 library(vitae)
 library(dplyr)
 library(scholar)
 
 scholarben <- get_profile("jvyIv10AAAAJ")
+
+#scholarben <- as.data.frame(1)
+#scholarben$total_cites <- 1
+#scholarben$h_index <- 1
 ```
 
 
 
 # Research Interests
 
- * I poisoned myself doing research.
- * I was the first woman to win a Nobel prize
- * I was the first person and only woman to win a Nobel prize in two different sciences.
+My research interests lie at the intersection of labour economics, international economics, and environmental economics. I currently pursue three strands of research: 
+\medskip
+
+1. impact of **migration** on the sending and receiving countries,
+
+2. impact of the **environment** (especially pollution) on human capital formation, 
+
+3. the effect of **peers** and teachers on human capital,
 
 
 # Current Positions
@@ -35,15 +48,26 @@ scholarben <- get_profile("jvyIv10AAAAJ")
 library(tibble)
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where,
-  "Assistant Professor (with tenure)", "2018", "University College Dublin", "Dublin, Ireland",
+  "Assistant Professor (with tenure)", "2018-", "University College Dublin", "Dublin, Ireland",
   "Research Fellow", "2018-", "Institute of Labor Economics (IZA)", "Bonn, Germany",
   "Research Fellow", "2016-", "Centre for Research and Analysis of Migration (CReAM), University College London", "London, UK",
   "Research Fellow", "2018-", "Geary Institute for Public Policy", "Dublin, Ireland",  
 ) %>% 
-  detailed_entries(Position, Year, Institution, Where)
+  detailed_entries(Position, Year, Institution)
 ```
 
 # Past Positions
+
+```{r}
+library(tibble)
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Senior Research Associate", "2014-2017", "Institute of Labor Economics (IZA)", "Bonn, Germany",
+  "Research Associate", "2012-2014", "Institute of Labor Economics (IZA)", "Bonn, Germany",
+) %>% 
+  detailed_entries(Position, Year, Institution)
+```
+
 
 # Education
 
@@ -54,12 +78,12 @@ tribble(
   "PhD Economics", "2013", "Trinity College Dublin", "Dublin, Ireland",
   "M.A. Economics", "2008", "Universität Regensburg", "Regensburg, Germany",
 ) %>% 
-  detailed_entries(Degree, Year, Institution, Where)
+  detailed_entries(Degree, Year, Institution)
 ```
 
 
 
-
+<!--
 # Nobel Prizes
 
 ```{r}
@@ -75,9 +99,11 @@ tribble(
   )
 ```
 
+-->
+
 # Publications
 
-**Number of citations**: `r scholarben$total_cites`; **h-index**: `r scholarben$h_index`
+Google scholar: **Number of citations**: `r scholarben$total_cites`; **h-index**: `r scholarben$h_index`
 
 ## Refereed Journals
 
@@ -137,8 +163,9 @@ bibliography_entries("workingpapers.bib") %>%
 # Work in Progress 
 
 
-- The Impact of Brexit on Irish Firms and Workers (joint with Eoin Flaherty and Stefanie Haller)
-- Gender Norms and Time Use: Pan-European Evidence from School Closures during Covid-19 (joint with Manvi Jindal, Massimiliano Mascherini and Sanna Nivakoski)
+1. The Impact of Brexit on Irish Firms and Workers (joint with Eoin Flaherty and Stefanie Haller)
+2. Gender Norms and Time Use: Pan-European Evidence from School Closures during Covid-19 (joint with Manvi Jindal, Massimiliano Mascherini and Sanna Nivakoski)
+3. Air Pollution and High-Stakes Decision Making (joint with Florian Wozny)
 
 
 
@@ -148,6 +175,7 @@ bibliography_entries("workingpapers.bib") %>%
 library(tibble)
 tribble(
   ~ Funder, ~ Year, ~ Details, ~ Sum,
+  "Irish Research Council", "2023", "Government of Ireland Postgraduate Scholarship", "Co-PI with Dimitrios Argyros, 55,000€",   
   "Irish Research Council", "2021", "Government of Ireland Postgraduate Scholarship", "Co-PI with Michele Gubello, 55,000€",  
   "World Bank, UK Aid and UNHCR", "2020", "Forced Migration, Social Cohesion and Conflict", "PI, 25,000USD",  
   "Irish Research Council", "2020", "Government of Ireland Postgraduate Scholarship", "Co-PI with Diego Zambiasi, 48,000€",  
@@ -194,7 +222,7 @@ University of Innsbruck, KU Ingolstadt-Eichstätt
 University of Groningen, Graduate Institute (Geneva), University of St. Andrews, University of Cardiff
 
 ## 2019
-Universit\`{a} degli Studi di Milano-Bicocca, Queen's University Belfast, ESRI, VU Amsterdam, University of Vilnius, University of Potsdam
+Università degli Studi di Milano-Bicocca, Queen's University Belfast, ESRI, VU Amsterdam, University of Vilnius, University of Potsdam
 
 ## 2018
 UCD Geary Institute, Trinity College Dublin, CERGE-EI Prague, Masaryk University Brno, Paris School of Economics, University of Trier, LISER (Luxembourg)
@@ -227,6 +255,58 @@ Trinity College Dublin
 # Conference Presentations
 
 
+## 2023
+EEA-ESEM Annual Meetings (Barcelona)
+
+
+## 2022
+IZA Workshop on Environment, Health and Labor Markets (online), ECA Talks on Forced Migration (World Bank, online)
+
+## 2019
+Workshop on Mobility and Migration (Bank of Italy, Rome)
+
+
+## 2018
+Irish Economic Association
+
+## 2017 
+IZA Annual Migration Meeting (Bonn), IZA Workshop on the Environment and Labor Markets, EALE (St. Gallen), IZA Workshop on the Economics of Education
+
+## 2016 
+SOLE Meetings (Seattle), EALE (Ghent), RGS/RWI Workshop on the Economics of Migration (Essen), IZA Workshop on the Economics of Education, ZEW Workshop on Migration (Mannheim)
+
+## 2015
+IZA Workshop "Inequality: Causes and Consequences" (Bonn), SOLE/EALE World Congress (Montreal), Workshop Health.Skills.Education (Essen), IZA/Worldbank Conference on Employment and Development (Bonn), EEA Meeting (Mannheim), Verein f\"{u}r Socialpolitik (M\"{u}nster), Workshop "Immigration in OECD Countries" (Paris)
+
+## 2014
+
+FERDI Workshop "International Labor Mobility and Inequality across Nations" (Clermont-Ferrand), RES Annual Conference (Manchester), SOLE (Arlington, VA), Annual Migration Meeting (Bonn),
+EALE (Ljubljana)
+\end{list1}
+
+
+## 2013 
+
+RES Annual Conference (RHUL, London), NORFACE migration conference (UCL, London), EALE (Torino), IZA/SOLE Transatlantic Meeting (Munich),
+ESPE (Aarhus), Worldbank Migration Conference (Ifrane, Morocco), ETSG (Birmingham), CEMIR workshop on migration (Munich),
+IZA/ASE Workshop "EU Enlargement and the Labor Markets" (Bucharest), OECD workshop "Immigration in OECD Countries" (Paris)
+
+
+## 2012 
+RES PhD Meeting (London), Irish Economic Association (Dublin), EEA Meetings (Málaga), ESEM (Málaga), German Economic Association (Göttingen), IZA/CEU Workshop on EU Enlargement and the Labor Markets (Budapest), Immigration in OECD Countries (Paris)
+
+## 2011 
+Mainz Workshop in Labor Economics (Mainz), NORFACE Conference "Migration: Economic Change,
+Social Challenge" (London), German Economic Association (Frankfurt), Irish Society of
+New Economists (Dublin), 2nd TEMPO Conference on International Migration (Vienna), SAE (Málaga)
+
+
+## 2010
+EEA Meetings (Glasgow), Irish Society of New Economists (Dublin), RGS Doctoral Conference (Bochum), Irish Economic Association (Belfast)
+
+## 2009 
+Irish Society of New Economists (Limerick)
+
 
 # Supervision
 
@@ -255,6 +335,25 @@ Nicolas Apfel (letter writer 2020-2022; PhD at U Regensburg; first placement: Po
 ## M.Sc Students (first placement in brackets)
 Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; PhD student KU Leuven), Rafan Alfrayyan (UCD, 2019, Economist at Saudi Ministry of Finance), Jeff Concannon (UCD, 2021; Analyst at Frontier Economics), Wendy Disch (UCD, 2021; Researcher at ESRI), Stephen Fowler (UCD, 2021; MPP Harris School, U Chicago), Anthony Jordan (UCD, 2021, Irish Government Economic and Evaluation Service), Cormac Harten (UCD, 2022, Analyst at Glenveagh Properties), Cecilie Gjendem (UCD, 2022, Analyst at LinkedIn), Ian Moran (UCD, 2023) 
 
+## PhD and Habilitation Examinations 
+
+**External**
+
+|   Stepan Mikula (Masaryk University Brno, examiner on habilitation committee, 2023)
+
+|   Jacopo Bassetto (University of Trento \& University of Bamberg, external PhD examiner, 2022)
+
+|   Vahan Sargsyan (CERGE-EI, external PhD examiner, 2018) 
+
+\medskip
+
+**Internal**
+
+|   Xidong Guo (UCD, PhD committee chair, 2022)
+
+|   Ivan Petrov (UCD, PhD committee chair, 2021)
+
+|   Neil Killeen (UCD, internal PhD examiner, 2018) 
 
 
 # Reviewing
@@ -286,32 +385,159 @@ Economic and Social Resarch Institute (ESRI; review of policy report)
 
 ## Conference Selection Committees
 
-DIAL conference "Barriers to Development" (2015)
+Annual Meetings of the European Economic Association (2023)
 
 Annual Conference of the German Economic Association (Verein für Socialpolitik, 2017, 2020)
 
-Annual Meetings of the European Economic Association (2023)
+DIAL conference "Barriers to Development" (2015)
+
+
+
+
 
 
 # Teaching
 
+
+## Programmes Designed
+
+**Structured MLitt/PhD programme in Economics** (UCD, 2018)
+
+- Created the first PhD programme in Ireland with a full first year of coursework
+- Tripled enrolment numbers from 17 (2017) to 50 (2020)
+
+\medskip
+
+**M.Sc Economics and Data Analytics** (UCD, 2023)
+
+- Created an M.Sc programme that is jointly offered by the School of Economics and the School of Mathematics and Statistics
+- Strong focus on quantitative methods (econometrics, data programming, machine learning)
+
 ## Innovations
+
+YouTube Channel with over 70 videos, over 50k views, over 2,000 subscribers
+
+intuitivemetrix.com $\rightarrow$ interactive website for undergraduate econometrics
+
+
 
 ## Qualification
 
-## Courses
+Professional Certificate in University Teaching \& Learning (University College Dublin, 2019)
+
+## Courses taught
+
+\textbf{University College Dublin}
+
+|   Causal Inference and Policy Evaluation (M.Sc, 2023-)
+
+|   Public Economics (B.Sc, 2019-2022)
+
+|   Econometrics (Ph.D, 2018-)
+
+|   Introduction to Econometrics (B.Sc, 2018-)
+
+|   Economics Research Workshop (B.Sc, 2018-2020)
+
+\medskip
+
+\textbf{European Business School}
+
+|   Introductory Econometrics (PhD, 2014-2020)
+
+|   European Labour Markets (B.Sc, 2014-2017)
+
+\medskip
+
+\textbf{University of Luxembourg}
+
+|   Economics of Migration (PhD, 2017)
+
+
+
+\medskip
+
+\textbf{Universität Regensburg}
+
+|   Economics of Migration (B.Sc, M.Sc, 2018)
+
+|   Macroeconomics (B.Sc tutorial, 2006-2007)
+
+|   Microeconomics (B.Sc tutorial, 2008)
+
+
+\medskip
+
+\textbf{Trinity College Dublin}
+
+|   Microeconomics (M.Sc, tutorial, 2009-2012)
 
 
 ## Guest Lectures and Masterclasses
 
+Masterclass in Causal Inference (Geary Institute for Public Policy, 2023)
 
-# Academic Service
+Common Pitfalls in Causal Research Designs (Irish Early Career Workshop, TU Dublin, 2023)
+
+The 2021 Nobel Prize in Economics (UCD, 2022)
+
+Common Pitfalls in Causal Research Designs (Eurofound, Dublin, 2022)
+
+Causal Research Designs with DAGs (\"{O}rebro University, 2022)
+
+Causal Inference for Social Scientists (UCD Social Sciences Summer School, 2021)
+
+New Developments in Causal Inference (Central Bank of Ireland, 2019)
+
+New Developments in Microeconometrics (Central Bank of Ireland, 2018)
+
+The Economics of Brain Drain and Brain Gain (University of Mannheim, 2015)
+
 
 ## Editorships
 
+Research in Labor Economics (Co-Editor, 2022-)
+
+IZA Journal of Labor Economics (Managing Editor, 2013)
+
+
 ## Managerial Roles
 
+**University College Dublin**
+
+|   Programme Director, M.Sc Economics and Data Analytics (2023-)
+
+|   Director of Research and Postgraduate Studies, UCD School of Economics (2022-)
+
+|   Director of the MLitt/PhD Programme in Economics (2018-2021)
+
+|   Member of the Executive Board of the School of Economics (2019-)
+
+\medskip
+
+**Institute of Labor Economics (IZA)**
+
+|   Deputy Director of the Programme Area *Mobility and Migration* (2015-2021)
+
+|   Manager of the guest programme and seminar series (2013-2017)
+
 ## Conference Organization
+
+
+IZA Annual Migration Meeting (co-organizer, Geary Institute, Dublin/Ireland, 2019)
+
+IZA Annual Migration Meeting (co-organizer, Harvard Kennedy School, Cambridge/MA, 2018)
+
+Irish Postgraduate and Early Career Economics Conference (co-organizer, Geary Institute, Dublin/Ireland, 2018)
+
+IZA Annual Migration Meeting (co-organizer, IZA, Bonn/Germany, 2017)
+
+IZA Annual Migration Meeting (sole organizer, IZA, Bonn/Germany, 2016)
+
+IZA Annual Migration Meeting (co-organizer, IZA, Dakar/Senegal, 2015)
+
+Irish Society of New Economists (ISNE, Trinity College Dublin, 2010)
+
 
 # Skills
 
@@ -320,3 +546,14 @@ R, RMarkdown, Stata, LaTeX, HTML
 
 ## Languages
 German (native), English (fluent), French, Polish (good), Italian, Czech, Russian (some)
+
+# References 
+
+
+\textbf{Prof. Gaia Narciso}, Trinity College Dublin, Department of Economics of Economics. \href{mailto:narcisog@tcd.ie}{narcisog@tcd.ie}
+
+\textbf{Prof. Ron Davies}, University College Dublin, School of Economics. \href{mailto:ronald.davies@ucd.ie}{ronald.davies@ucd.ie}
+
+\textbf{Prof. Paul Devereux}, University College Dublin, School of Economics. \href{mailto:paul.devereux@ucd.ie}{paul.devereux@ucd.ie}
+
+\textbf{Prof. Daniel Hamermesh}, University of Texas at Austin, \href{mailto:hamermes@utexas.edu}{hamermes@utexas.edu}
