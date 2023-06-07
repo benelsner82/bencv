@@ -175,6 +175,7 @@ bibliography_entries("workingpapers.bib") %>%
 library(tibble)
 tribble(
   ~ Funder, ~ Year, ~ Details, ~ Sum,
+  "European Economic Association", "2023", "Seedcorn Grant for the Development of Innovative Teaching", "2,000€",    
   "Irish Research Council", "2023", "Government of Ireland Postgraduate Scholarship", "Co-PI with Dimitrios Argyros, 55,000€",   
   "Irish Research Council", "2021", "Government of Ireland Postgraduate Scholarship", "Co-PI with Michele Gubello, 55,000€",  
   "World Bank, UK Aid and UNHCR", "2020", "Forced Migration, Social Cohesion and Conflict", "PI, 25,000USD",  
