@@ -211,7 +211,7 @@ tribble(
 # Invited Seminars
 
 ## 2023
-University of Surrey, University of Padova, IRVAPP-FBK (Trento), University of Bolzano
+University of Surrey, University of Padova, IRVAPP-FBK (Trento), University of Bolzano, ISEG Lisbon
 
 ## 2022
 UCD Geary Institute, KU Leuven (LICOS), University of Strathclyde
