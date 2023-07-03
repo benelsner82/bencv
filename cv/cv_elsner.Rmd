@@ -277,13 +277,13 @@ IZA Annual Migration Meeting (Bonn), IZA Workshop on the Environment and Labor M
 SOLE Meetings (Seattle), EALE (Ghent), RGS/RWI Workshop on the Economics of Migration (Essen), IZA Workshop on the Economics of Education, ZEW Workshop on Migration (Mannheim)
 
 ## 2015
-IZA Workshop "Inequality: Causes and Consequences" (Bonn), SOLE/EALE World Congress (Montreal), Workshop Health.Skills.Education (Essen), IZA/Worldbank Conference on Employment and Development (Bonn), EEA Meeting (Mannheim), Verein f\"{u}r Socialpolitik (M\"{u}nster), Workshop "Immigration in OECD Countries" (Paris)
+IZA Workshop "Inequality: Causes and Consequences" (Bonn), SOLE/EALE World Congress (Montreal), Workshop Health.Skills.Education (Essen), IZA/Worldbank Conference on Employment and Development (Bonn), EEA Meeting (Mannheim), Verein für Socialpolitik (M\"{u}nster), Workshop "Immigration in OECD Countries" (Paris)
 
 ## 2014
 
 FERDI Workshop "International Labor Mobility and Inequality across Nations" (Clermont-Ferrand), RES Annual Conference (Manchester), SOLE (Arlington, VA), Annual Migration Meeting (Bonn),
 EALE (Ljubljana)
-\end{list1}
+
 
 
 ## 2013 
@@ -476,23 +476,30 @@ Professional Certificate in University Teaching \& Learning (University College 
 
 ## Guest Lectures and Masterclasses
 
-Masterclass in Causal Inference (Geary Institute for Public Policy, 2023)
 
-Common Pitfalls in Causal Research Designs (Irish Early Career Workshop, TU Dublin, 2023)
+|   Guest lecture: Why International Experience Matters (University of Oldenburg, PhD class, scheduled 2023)
 
-The 2021 Nobel Prize in Economics (UCD, 2022)
+|   Guest lecture: the Welfare Impact of International Migration (University of Groningen, MSc class, scheduled 2023)
 
-Common Pitfalls in Causal Research Designs (Eurofound, Dublin, 2022)
+|   Masterclass Regression Discontinuity Design (University of Regensburg, MSc class, 2023)
 
-Causal Research Designs with DAGs (\"{O}rebro University, 2022)
+|   Masterclass in Causal Inference (Geary Institute for Public Policy, 2023)
 
-Causal Inference for Social Scientists (UCD Social Sciences Summer School, 2021)
+|   Common Pitfalls in Causal Research Designs (Irish Early Career Workshop, TU Dublin, 2023)
 
-New Developments in Causal Inference (Central Bank of Ireland, 2019)
+|   The 2021 Nobel Prize in Economics (UCD, 2022)
 
-New Developments in Microeconometrics (Central Bank of Ireland, 2018)
+|   Common Pitfalls in Causal Research Designs (Eurofound, Dublin, 2022)
 
-The Economics of Brain Drain and Brain Gain (University of Mannheim, 2015)
+|   Causal Research Designs with DAGs (Örebro University, 2022)
+
+|   Causal Inference for Social Scientists (UCD Social Sciences Summer School, 2021)
+
+|   New Developments in Causal Inference (Central Bank of Ireland, 2019)
+
+|   New Developments in Microeconometrics (Central Bank of Ireland, 2018)
+
+|   The Economics of Brain Drain and Brain Gain (University of Mannheim, 2015)
 
 
 ## Editorships
