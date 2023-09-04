@@ -313,28 +313,28 @@ Irish Society of New Economists (Limerick)
 
 ## PhD Students 
 
-Emanuele Albarosa (UCD, 2018-2022; first placement: Economist, IOM/United Nations) 
+|   Emanuele Albarosa (UCD, 2018-2022; first placement: Economist, IOM/United Nations) 
 
-Diego Zambiasi (UCD, 2018-2022, first placement: Lecturer with tenure, Newcastle University) 
+|   Diego Zambiasi (UCD, 2018-2022, first placement: Lecturer with tenure, Newcastle University) 
 
-Stefano Ceolotto (TCD, co-advisor, 2019-2022, first placement: Post-Doc, ESRI) 
+|   Stefano Ceolotto (TCD, co-advisor, 2019-2022, first placement: Post-Doc, ESRI) 
 
-Mohsin Javed (UCD, 2019-) 
+|   Mohsin Javed (UCD, 2019-) 
 
-Michele Gubello (UCD, 2019-, first placement: Post-Doc, ESRI) 
+|   Michele Gubello (UCD, 2019-, first placement: Post-Doc, ESRI) 
 
-Dimitrios Argyros (UCD, 2021-) 
+|   Dimitrios Argyros (UCD, 2021-) 
 
-Manvi Jindal (UCD, 2021-) 
+|   Manvi Jindal (UCD, 2021-) 
 
-Aditi Kharb (UCD, 2022-) 
+|   Aditi Kharb (UCD, 2022-) 
 
 
 ## Post-Doc 
 Nicolas Apfel (letter writer 2020-2022; PhD at U Regensburg; first placement: Post-Doc at U Surrey; currently permanent Lecturer at U Southampton)
 
 ## M.Sc Students (first placement in brackets)
-Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; PhD student KU Leuven), Rafan Alfrayyan (UCD, 2019, Economist at Saudi Ministry of Finance), Jeff Concannon (UCD, 2021; Analyst at Frontier Economics), Wendy Disch (UCD, 2021; Researcher at ESRI), Stephen Fowler (UCD, 2021; MPP Harris School, U Chicago), Anthony Jordan (UCD, 2021, Irish Government Economic and Evaluation Service), Cormac Harten (UCD, 2022, Analyst at Glenveagh Properties), Cecilie Gjendem (UCD, 2022, Analyst at LinkedIn), Ian Moran (UCD, 2023) 
+Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; PhD student KU Leuven), Rafan Alfrayyan (UCD, 2019, Economist at Saudi Ministry of Finance), Jeff Concannon (UCD, 2021; Analyst at Frontier Economics), Wendy Disch (UCD, 2021; Researcher at ESRI), Stephen Fowler (UCD, 2021; MPP Harris School, U Chicago), Anthony Jordan (UCD, 2021, Irish Government Economic and Evaluation Service), Cormac Harten (UCD, 2022, Analyst at Glenveagh Properties), Cecilie Gjendem (UCD, 2022, Analyst at LinkedIn) 
 
 ## PhD and Habilitation Examinations 
 
@@ -375,22 +375,22 @@ of Labor (3x), Journal of Applied Economics, Journal of Common Market Studies, J
 
 ## Grant Reviews
 
-GLM-LIC (IZA and DFID, 2x)
+|   GLM-LIC (IZA and DFID, 2x)
 
-OeNB Jubiläumsfonds (Austrian National Bank)
+|   OeNB Jubiläumsfonds (Austrian National Bank)
 
-Czech Science Foundation (2x)
+|   Czech Science Foundation (2x)
 
-Economic and Social Resarch Institute (ESRI; review of policy report)
+|   Economic and Social Resarch Institute (ESRI; review of policy report)
 
 
 ## Conference Selection Committees
 
-Annual Meetings of the European Economic Association (2023)
+|   Annual Meetings of the European Economic Association (2023)
 
-Annual Conference of the German Economic Association (Verein für Socialpolitik, 2017, 2020)
+|   Annual Conference of the German Economic Association (Verein für Socialpolitik, 2017, 2020)
 
-DIAL conference "Barriers to Development" (2015)
+|   DIAL conference "Barriers to Development" (2015)
 
 
 
@@ -416,7 +416,7 @@ DIAL conference "Barriers to Development" (2015)
 
 ## Innovations
 
-YouTube Channel with over 70 videos, over 50k views, over 2,000 subscribers
+YouTube Channel with over 70 videos, over 50k views, over 2,300 subscribers
 
 intuitivemetrix.com $\rightarrow$ interactive website for undergraduate econometrics
 
@@ -476,6 +476,9 @@ Professional Certificate in University Teaching \& Learning (University College 
 
 ## Guest Lectures and Masterclasses
 
+|   Workshop: R for Practitioners (IGEES, 2023-)
+
+|   Masterclass: New Developments in Causal Inference (Central Bank of Ireland, 2023)
 
 |   Guest lecture: Why International Experience Matters (University of Oldenburg, PhD class, scheduled 2023)
 
