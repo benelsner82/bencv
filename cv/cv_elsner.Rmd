@@ -48,7 +48,7 @@ My research interests lie at the intersection of labour economics, international
 library(tibble)
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where,
-  "Assistant Professor (with tenure)", "2018-", "University College Dublin", "Dublin, Ireland",
+  "Professor", "2023-", "University College Dublin", "Dublin, Ireland",
   "Research Fellow", "2018-", "Institute of Labor Economics (IZA)", "Bonn, Germany",
   "Research Fellow", "2016-", "Centre for Research and Analysis of Migration (CReAM), University College London", "London, UK",
   "Research Fellow", "2018-", "Geary Institute for Public Policy", "Dublin, Ireland",  
@@ -62,6 +62,7 @@ tribble(
 library(tibble)
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Assistant Professor", "2018-2023", "University College Dublin", "Dublin, Ireland",  
   "Senior Research Associate", "2014-2017", "Institute of Labor Economics (IZA)", "Bonn, Germany",
   "Research Associate", "2012-2014", "Institute of Labor Economics (IZA)", "Bonn, Germany",
 ) %>% 
@@ -208,10 +209,10 @@ tribble(
 ```
 
 
-# Invited Seminars
+# Invited Seminars (69 seminars, 48 institutions, 19 countries)
 
 ## 2023
-University of Surrey, University of Padova, IRVAPP-FBK (Trento), University of Bolzano, ISEG Lisbon
+University of Surrey, University of Padova, IRVAPP-FBK (Trento), University of Bolzano, Queen's University Belfast, ISEG Lisbon
 
 ## 2022
 UCD Geary Institute, KU Leuven (LICOS), University of Strathclyde
@@ -247,7 +248,7 @@ University College Dublin, University of Southern Denmark, IOS Regensburg, Unive
 University of Edinburgh, LMU Munich, IZA Bonn, University of Stirling
 
 ## 2011
-UCD Geary Institute, NUI Maynooth, SSE Riga, Bocconi University, Fondazione Eni Enrico Mattei (Milan), Institute for East European Studies (Regensburg)
+UCD Geary Institute, NUI Maynooth, SSE Riga, Bocconi University, Fondazione Eni Enrico Mattei (Milan), IOS Regensburg
 
 ## 2010
 Trinity College Dublin
@@ -359,13 +360,13 @@ Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; 
 
 # Reviewing
 
-## Refereed Journals (70 Reports, 48 journals)
+## Refereed Journals (72 Reports, 49 journals)
 
 American Economic Review (2x), American Economic Review: Insights, Review of Economic Studies (2x), Journal of Human Resources (6x), Journal of International Economics (2x), Journal of Labor Economics (4x), Journal of Public Economics (2x), Journal of the European
 Economic Association (3x), Management Science, Review of Economics & Statistics (3x), Canadian Journal of Economics, European Economic Review (2x), Industrial and Labor Relations Review, Journal of Applied Econometrics, Journal of Econometrics, Journal of
 Economic Behavior and Organization (3x), Journal of Economic Dynamics and
-Control,  Journal of Economic Geography, Journal of Population Economics (3x), Journal of the Association of Environmental and Resource Economists, Journal of Urban Economics (2x), Labour Economics (3x),
-Regional Science and Urban Economics (3x), Scandinavian Journal of Economics, American Journal of Health Economics, Economics of Education Review (4x), Economic Policy, Health Economics,
+Control,  Journal of Economic Geography, Journal of Population Economics (3x), Journal of the Association of Environmental and Resource Economists, Journal of Urban Economics (2x), Labour Economics (4x),
+Regional Science and Urban Economics (3x), Scandinavian Journal of Economics, American Journal of Health Economics, Economics of Education Review (4x), Economic Policy, Economics Letters, Health Economics,
 Journal of Regional Science, Review of Development Economics, Review of
 Income and Wealth, Review of International Economics, China Economic Review, Economic Systems, Economics Letters, Empirical Economics (2x), Fiscal Studies, German Economic
 Review (3x), International Journal of Manpower, International Migration Review, IZA Journal of Development and Migration, IZA Journal of European Labor
@@ -386,7 +387,7 @@ of Labor (3x), Journal of Applied Economics, Journal of Common Market Studies, J
 
 ## Conference Selection Committees
 
-|   Annual Meetings of the European Economic Association (2023)
+|   Annual Meetings of the European Economic Association (2023, 2024)
 
 |   Annual Conference of the German Economic Association (Verein für Socialpolitik, 2017, 2020)
 
