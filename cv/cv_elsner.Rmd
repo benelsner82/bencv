@@ -164,9 +164,8 @@ bibliography_entries("workingpapers.bib") %>%
 # Work in Progress 
 
 
-1. The Impact of Brexit on Irish Firms and Workers (joint with Eoin Flaherty and Stefanie Haller)
+1. Brexit had no Impact on Irish Exporters (joint with Eoin Flaherty and Stefanie Haller)
 2. Gender Norms and Time Use: Pan-European Evidence from School Closures during Covid-19 (joint with Manvi Jindal, Massimiliano Mascherini and Sanna Nivakoski)
-3. Air Pollution and High-Stakes Decision Making (joint with Florian Wozny)
 
 
 
