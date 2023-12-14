@@ -211,7 +211,7 @@ tribble(
 # Invited Seminars (69 seminars, 48 institutions, 19 countries)
 
 ## 2023
-University of Surrey, University of Padova, IRVAPP-FBK (Trento), University of Bolzano, Queen's University Belfast, ISEG Lisbon
+University of Surrey, University of Padova, IRVAPP-FBK (Trento), University of Bolzano, Queen's University Belfast, ISEG Lisbon, University of Antwerp
 
 ## 2022
 UCD Geary Institute, KU Leuven (LICOS), University of Strathclyde
@@ -359,13 +359,13 @@ Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; 
 
 # Reviewing
 
-## Refereed Journals (72 Reports, 49 journals)
+## Refereed Journals (74 Reports, 49 journals)
 
 American Economic Review (2x), American Economic Review: Insights, Review of Economic Studies (2x), Journal of Human Resources (6x), Journal of International Economics (2x), Journal of Labor Economics (4x), Journal of Public Economics (2x), Journal of the European
 Economic Association (3x), Management Science, Review of Economics & Statistics (3x), Canadian Journal of Economics, European Economic Review (2x), Industrial and Labor Relations Review, Journal of Applied Econometrics, Journal of Econometrics, Journal of
 Economic Behavior and Organization (3x), Journal of Economic Dynamics and
-Control,  Journal of Economic Geography, Journal of Population Economics (3x), Journal of the Association of Environmental and Resource Economists, Journal of Urban Economics (2x), Labour Economics (4x),
-Regional Science and Urban Economics (3x), Scandinavian Journal of Economics, American Journal of Health Economics, Economics of Education Review (4x), Economic Policy, Economics Letters, Health Economics,
+Control,  Journal of Economic Geography, Journal of Population Economics (3x), Journal of the Association of Environmental and Resource Economists, Journal of Urban Economics (2x), Labour Economics (5x),
+Regional Science and Urban Economics (3x), Scandinavian Journal of Economics, American Journal of Health Economics, Economics of Education Review (5x), Economic Policy, Economics Letters, Health Economics,
 Journal of Regional Science, Review of Development Economics, Review of
 Income and Wealth, Review of International Economics, China Economic Review, Economic Systems, Economics Letters, Empirical Economics (2x), Fiscal Studies, German Economic
 Review (3x), International Journal of Manpower, International Migration Review, IZA Journal of Development and Migration, IZA Journal of European Labor
