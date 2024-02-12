@@ -480,6 +480,13 @@ Professional Certificate in University Teaching \& Learning (University College 
 |   Microeconomics (M.Sc, tutorial, 2009-2012)
 
 
+\medskip
+
+\textbf{TU Dresden}
+
+|   Causal Inference (PhD Course, 2024)
+
+
 ## Guest Lectures and Masterclasses
 
 |   Workshop: R for Practitioners (IGEES, 2023-)
