@@ -1,0 +1,1074 @@
+%% Template for a CV
+%% Author: Rob J Hyndman
+
+\documentclass[10pt,a4paper,]{article}
+\usepackage[scaled=0.86]{DejaVuSansMono}
+\usepackage[sfdefault,lf,t]{carlito}
+
+% Change color to blue
+\usepackage{color,xcolor}
+\definecolor{headcolor}{HTML}{990000}
+
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\PassOptionsToPackage{hyphens}{url} % url is loaded by hyperref
+\usepackage[unicode=true,hidelinks]{hyperref}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{geometry}
+\geometry{left=1.75cm,right=1.75cm,top=2.2cm,bottom=2cm}
+
+\usepackage{longtable,booktabs}
+% Fix footnotes in tables (requires footnote package)
+\IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+\date{February 2024}
+
+
+\usepackage{paralist,ragged2e,datetime}
+\usepackage[hyphens]{url}
+\usepackage{fancyhdr,enumitem,pifont}
+\usepackage[compact,small,sf,bf]{titlesec}
+
+\RaggedRight
+\sloppy
+
+% Header and footer
+\pagestyle{fancy}
+\makeatletter
+\lhead{\sf\textcolor[gray]{0.4}{Curriculum Vitae: \@name}}
+\rhead{\sf\textcolor[gray]{0.4}{\thepage}}
+\cfoot{}
+\def\headrule{{\color[gray]{0.4}\hrule\@height\headrulewidth\@width\headwidth \vskip-\headrulewidth}}
+\makeatother
+
+% Header box
+\usepackage{tabularx}
+
+\makeatletter
+\def\name#1{\def\@name{#1}}
+\def\info#1{\def\@info{#1}}
+\makeatother
+\newcommand{\shadebox}[3][.9]{\fcolorbox[gray]{0}{#1}{\parbox{#2}{#3}}}
+
+\usepackage{calc}
+\newlength{\headerboxwidth}
+\setlength{\headerboxwidth}{\textwidth}
+%\addtolength{\headerboxwidth}{0.2cm}
+\makeatletter
+\def\maketitle{
+\thispagestyle{plain}
+\vspace*{-1.4cm}
+\shadebox[0.9]{\headerboxwidth}{\sf\color{headcolor}\hfil
+\hbox to 0.98\textwidth{\begin{tabular}{l}
+\\[-0.3cm]
+\LARGE\textbf{\@name}
+\\[0.7cm]
+\normalsize\textbf{Curriculum Vitae}\\
+\normalsize February 2024
+\end{tabular}
+\hfill\hbox{\fontsize{9}{12}\sf
+\begin{tabular}{@{}rl@{}}
+\@info
+\end{tabular}}}\hfil
+}
+\vspace*{0.2cm}}
+\makeatother
+
+% Section headings
+\titlelabel{}
+\titlespacing{\section}{0pt}{1.5ex}{0.5ex}
+\titleformat*{\section}{\color{headcolor}\large\sf\bfseries}
+\titleformat*{\subsection}{\color{headcolor}\sf\bfseries}
+\titlespacing{\subsection}{0pt}{1ex}{0.5ex}
+
+% Miscellaneous dimensions
+\setlength{\parskip}{0ex}
+\setlength{\parindent}{0em}
+\setlength{\headheight}{15pt}
+\setlength{\tabcolsep}{0.15cm}
+\clubpenalty = 10000
+\widowpenalty = 10000
+\setlist{itemsep=1pt}
+\setdescription{labelwidth=1.2cm,leftmargin=1.5cm,labelindent=1.5cm,font=\rm}
+
+% Make nicer bullets
+\renewcommand{\labelitemi}{\ding{228}}
+
+\usepackage{booktabs,fontawesome5}
+%\usepackage[t1,scale=0.86]{sourcecodepro}
+
+\name{Benjamin Elsner}
+\def\imagetop#1{\vtop{\null\hbox{#1}}}
+\info{%
+\raisebox{-0.05cm}{\imagetop{\faIcon{map-marker-alt}}} &  \imagetop{\begin{tabular}{@{}l@{}}University
+College Dublin, School of Economics, Belfield, Dublin 4,
+Ireland\end{tabular}}\\ %
+\faIcon{home} & \href{http://benjaminelsner.com}{benjaminelsner.com}\\% %
+%
+\faIcon{phone-alt} & +353 1 716 8446\\%
+\faIcon{envelope} & \href{mailto:benjamin.elsner@ucd.ie}{\nolinkurl{benjamin.elsner@ucd.ie}}\\%
+\faIcon{twitter} & \href{https://twitter.com/ben\_elsner}{@ben\_elsner}\\%
+\faIcon{github} & \href{https://github.com/benelsner82}{benelsner82}\\%
+%
+%
+%
+%
+}
+
+
+%\usepackage{inconsolata}
+
+
+\setlength\LTleft{0pt}
+\setlength\LTright{0pt}
+
+% Pandoc CSL macros
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+\def\endfirstpage{\newpage}
+
+\begin{document}
+\maketitle
+
+
+\hypertarget{research-interests}{%
+\section{Research Interests}\label{research-interests}}
+
+My research interests lie at the intersection of labour economics,
+international economics, and environmental economics. I currently pursue
+three strands of research: \medskip
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  impact of \textbf{migration} on the sending and receiving countries,
+\item
+  impact of the \textbf{environment} (especially pollution) on human
+  capital formation,
+\item
+  the effect of \textbf{peers} and teachers on human capital,
+\end{enumerate}
+
+\hypertarget{current-positions}{%
+\section{Current Positions}\label{current-positions}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2023- & \parbox[t]{0.85\textwidth}{%
+\textbf{Professor}\hfill{\footnotesize University College Dublin}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2018- & \parbox[t]{0.85\textwidth}{%
+\textbf{Research Fellow}\hfill{\footnotesize Institute of Labor Economics (IZA)}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2016- & \parbox[t]{0.85\textwidth}{%
+\textbf{Research Fellow}\hfill{\footnotesize Centre for Research and Analysis of Migration (CReAM), University College London}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2018- & \parbox[t]{0.85\textwidth}{%
+\textbf{Research Fellow}\hfill{\footnotesize Geary Institute for Public Policy}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{past-positions}{%
+\section{Past Positions}\label{past-positions}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2018-2023 & \parbox[t]{0.85\textwidth}{%
+\textbf{Assistant Professor}\hfill{\footnotesize University College Dublin}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2014-2017 & \parbox[t]{0.85\textwidth}{%
+\textbf{Senior Research Associate}\hfill{\footnotesize Institute of Labor Economics (IZA)}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2012-2014 & \parbox[t]{0.85\textwidth}{%
+\textbf{Research Associate}\hfill{\footnotesize Institute of Labor Economics (IZA)}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2013 & \parbox[t]{0.85\textwidth}{%
+\textbf{PhD Economics}\hfill{\footnotesize Trinity College Dublin}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2008 & \parbox[t]{0.85\textwidth}{%
+\textbf{M.A. Economics}\hfill{\footnotesize Universität Regensburg}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+Google scholar: \textbf{Number of citations}: 961; \textbf{h-index}: 13
+
+\hypertarget{refereed-journals}{%
+\subsection{Refereed Journals}\label{refereed-journals}}
+
+\hypertarget{refs-3ae327f459a81bf3f78b78cb25ae2ea9}{}
+\begin{CSLReferences}{0}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-R-chevalier23}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Chevalier, A., Elsner, B., Lichter, A., \& Pestel, N.
+(2023). Forced migration and public policy setting: Evidence from
+post-war west germany. \emph{Journal of the European Economic
+Association}, \emph{forthcoming}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-wd23}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Albarosa, E., \& Elsner, B. (2023). Forced migration and
+social cohesion: Evidence from the 2015/16 mass inflow in germany.
+\emph{World Development}, \emph{167}, 106228.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-jeem23}{}}%
+\CSLLeftMargin{3. }%
+\CSLRightInline{Elsner, B., \& Wozny, F. (2023). Long-run exposure to
+low-dose radiation reduces cognitive performance. \emph{Journal of
+Environmental Economics and Management}, \emph{118}, 102785.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-izawol22}{}}%
+\CSLLeftMargin{4. }%
+\CSLRightInline{Elsner, B. (2022). Does emigration increase the wages of
+non-emigrants in sending countries? \emph{IZA World of Labor},
+\emph{208}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-ej21}{}}%
+\CSLLeftMargin{5. }%
+\CSLRightInline{Elsner, B., Isphording, I. E., \& Zölitz, U. (2021).
+Achievement rank affects performance and major choices in college.
+\emph{Economic Journal}, \emph{131}(640), 3182--3206.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-jde20}{}}%
+\CSLLeftMargin{6. }%
+\CSLRightInline{Biavaschi, C., Burzyński, M., Elsner, B., \& Machado, J.
+(2020). Taking the skill bias out of global migration. \emph{Journal of
+Development Economics}, \emph{142}, 102317.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-itax18}{}}%
+\CSLLeftMargin{7. }%
+\CSLRightInline{Buhlmann, F., Elsner, B., \& Peichl, A. (2018). Tax
+refunds and income manipulation evidence from the EITC.
+\emph{International Tax and Public Finance}, \emph{25}(6), 1490--1518.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-obes18}{}}%
+\CSLLeftMargin{8. }%
+\CSLRightInline{Elsner, B., Narciso, G., \& Thijssen, J. (2018). Migrant
+networks and the spread of (mis-)information. \emph{Oxford Bulletin of
+Economics and Statistics}, \emph{80}(3), 659--688.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-jhr18}{}}%
+\CSLLeftMargin{9. }%
+\CSLRightInline{Elsner, B., \& Isphording, I. E. (2018). Rank, sex,
+drugs and crime. \emph{Journal of Human Resources}, \emph{53}(2).}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-jole17}{}}%
+\CSLLeftMargin{10. }%
+\CSLRightInline{Elsner, B., \& Isphording, I. E. (2017). A big fish in a
+small pond: Ability rank and human capital investment. \emph{Journal of
+Labor Economics}, \emph{35}(3), 787--828.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-jie13}{}}%
+\CSLLeftMargin{11. }%
+\CSLRightInline{Elsner, B. (2013). Emigration and wages: The EU
+enlargement experiment. \emph{Journal of International Economics},
+\emph{91}(1), 154--163.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-jpopecon13}{}}%
+\CSLLeftMargin{12. }%
+\CSLRightInline{Elsner, B. (2013). Does emigration benefit the stayers?
+Evidence from EU enlargement. \emph{Journal of Population Economics},
+\emph{26}(2), 531--553.}
+
+\end{CSLReferences}
+
+\hypertarget{edited-book}{%
+\subsection{Edited Book}\label{edited-book}}
+
+\hypertarget{refs-8609b63322ef070c16efdaf73080a94d}{}
+\begin{CSLReferences}{0}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-R-borjas18}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Borjas, G. J., \& Chiswick, B. R. (2018).
+\emph{Foundations of migration economics} (B. Elsner, Ed.). Oxford
+University Press.}
+
+\end{CSLReferences}
+
+\hypertarget{book-chapters-and-policy-reports}{%
+\subsection{Book Chapters and Policy
+Reports}\label{book-chapters-and-policy-reports}}
+
+\hypertarget{refs-658742a7a57353d10df1ca5dbe9d164a}{}
+\begin{CSLReferences}{0}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-R-worldscientific}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Elsner, B., \& Concannon, J. (2023). Immigration and
+redistribution. In R. M. Sauer (Ed.), \emph{Handbook of global
+migration} (Vol. 3). World Scientific.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-worldbank}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Albarosa, E., \& Elsner, B. (2022). \emph{Forced
+migration, social cohesion and conflict}. World Bank.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-schooltext}{}}%
+\CSLLeftMargin{3. }%
+\CSLRightInline{Elsner, B. (2019). The economic effects of migration. In
+T. Brancaccio, Y. Deli, I. Pastine, \& C. Whelan (Eds.), \emph{Economics
+in action: Topics and resources}. McGraw Hill.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-elsnerkfz}{}}%
+\CSLLeftMargin{4. }%
+\CSLRightInline{Elsner, B., \& Zimmermann, K. F. (2016). Migration 10
+years after: EU enlargement, closed borders, and migration to germany.
+In M. Kahanec \& K. F. Zimmermann (Eds.), \emph{Labor migration, EU
+enlargement, and the great recession} (pp. 85--101). Springer.}
+
+\end{CSLReferences}
+
+\hypertarget{working-papers}{%
+\section{Working Papers}\label{working-papers}}
+
+\hypertarget{refs-5bc1a56cf8e66da95d1af783c419c7d0}{}
+\begin{CSLReferences}{0}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-R-biavaschi13}{}}%
+\CSLLeftMargin{1. }%
+\CSLRightInline{Biavaschi, C., \& Elsner, B. (2014). \emph{Let's be
+selective about migrant self-selection}.}
+
+\leavevmode\vadjust pre{\hypertarget{ref-R-bellani22}{}}%
+\CSLLeftMargin{2. }%
+\CSLRightInline{Bellani, L., Ceolotto, S., Elsner, B., \& Pestel, N.
+(2022). The political fallout of air pollution. \emph{Revise and
+Re-Submit at Proceedings of the National Academy of Sciences}.}
+
+\end{CSLReferences}
+
+\hypertarget{work-in-progress}{%
+\section{Work in Progress}\label{work-in-progress}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Brexit had no Impact on Irish Exporters (joint with Eoin Flaherty and
+  Stefanie Haller)
+\item
+  Gender Norms and Time Use: Pan-European Evidence from School Closures
+  during Covid-19 (joint with Manvi Jindal, Massimiliano Mascherini and
+  Sanna Nivakoski)
+\end{enumerate}
+
+\hypertarget{grants}{%
+\section{Grants}\label{grants}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2023 & \parbox[t]{0.85\textwidth}{%
+\textbf{European Economic Association}\hfill{\footnotesize Seedcorn Grant for the Development of Innovative Teaching}\newline
+  2,000€\par%
+  \empty%
+\vspace{\parsep}}\\
+2023 & \parbox[t]{0.85\textwidth}{%
+\textbf{Irish Research Council}\hfill{\footnotesize Government of Ireland Postgraduate Scholarship}\newline
+  Co-PI with Dimitrios Argyros, 56,000€\par%
+  \empty%
+\vspace{\parsep}}\\
+2021 & \parbox[t]{0.85\textwidth}{%
+\textbf{Irish Research Council}\hfill{\footnotesize Government of Ireland Postgraduate Scholarship}\newline
+  Co-PI with Michele Gubello, 55,000€\par%
+  \empty%
+\vspace{\parsep}}\\
+2020 & \parbox[t]{0.85\textwidth}{%
+\textbf{World Bank, UK Aid and UNHCR}\hfill{\footnotesize Forced Migration, Social Cohesion and Conflict}\newline
+  PI, 25,000USD\par%
+  \empty%
+\vspace{\parsep}}\\
+2020 & \parbox[t]{0.85\textwidth}{%
+\textbf{Irish Research Council}\hfill{\footnotesize Government of Ireland Postgraduate Scholarship}\newline
+  Co-PI with Diego Zambiasi, 48,000€\par%
+  \empty%
+\vspace{\parsep}}\\
+2019 & \parbox[t]{0.85\textwidth}{%
+\textbf{Irish Research Council}\hfill{\footnotesize Government of Ireland Postgraduate Scholarship}\newline
+  Co-PI with Emanuele Albarosa, 72,000€\par%
+  \empty%
+\vspace{\parsep}}\\
+2017 & \parbox[t]{0.85\textwidth}{%
+\textbf{German Ministry of Education (BMBF)}\hfill{\footnotesize Determinants of College Dropout (with Ingo E. Isphording, Florian Wozny and Ulf Zölitz)}\newline
+  170,000€\par%
+  \empty%
+\vspace{\parsep}}\\
+2011 & \parbox[t]{0.85\textwidth}{%
+\textbf{Irish Research Council (IRCHSS)}\hfill{\footnotesize Government of Ireland Postgraduate Scholarship}\newline
+  PI, 21,000€\par%
+  \empty%
+\vspace{\parsep}}\\
+2008 & \parbox[t]{0.85\textwidth}{%
+\textbf{Strategic Innovation Fund}\hfill{\footnotesize PhD Scholarship}\newline
+  PI, 48,000€\par%
+  \empty%
+\vspace{\parsep}}\\
+2005 & \parbox[t]{0.85\textwidth}{%
+\textbf{Haniel Foundation}\hfill{\footnotesize Go East Scholarship for Studies Abroad}\newline
+  PI, 3,000€\par%
+  \empty%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{honors-and-awards}{%
+\section{Honors and Awards}\label{honors-and-awards}}
+
+\begin{longtable}{@{\extracolsep{\fill}}ll}
+2022 & \parbox[t]{0.85\textwidth}{%
+\textbf{Teaching Excellence Award}\hfill{\footnotesize UCD College of Social Sciences and Law}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2018 & \parbox[t]{0.85\textwidth}{%
+\textbf{Best Paper Award}\hfill{\footnotesize Spring Meetings of Young Economists}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2018 & \parbox[t]{0.85\textwidth}{%
+\textbf{Novartis Prize}\hfill{\footnotesize Best Paper in Health Economics, Irish Economic Association}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2016 & \parbox[t]{0.85\textwidth}{%
+\textbf{Best Paper Prize}\hfill{\footnotesize Warsaw International Economic Meeting}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2015 & \parbox[t]{0.85\textwidth}{%
+\textbf{Excellence in Refereeing Award}\hfill{\footnotesize Labour Economics}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2010 & \parbox[t]{0.85\textwidth}{%
+\textbf{FEEM Award}\hfill{\footnotesize Best Paper Presented by a Young Economist at the EEA Conference}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+2008 & \parbox[t]{0.85\textwidth}{%
+\textbf{Christa Lindner Preis}\hfill{\footnotesize Best M.A. Thesis at the University of Regensburg}\newline
+  \empty%
+  \empty%
+\vspace{\parsep}}\\
+\end{longtable}
+
+\hypertarget{invited-seminars-69-seminars-48-institutions-19-countries}{%
+\section{Invited Seminars (69 seminars, 48 institutions, 19
+countries)}\label{invited-seminars-69-seminars-48-institutions-19-countries}}
+
+\hypertarget{section}{%
+\subsection{2023}\label{section}}
+
+University of Surrey, University of Padova, IRVAPP-FBK (Trento),
+University of Bolzano, Queen's University Belfast, ISEG Lisbon,
+University of Antwerp
+
+\hypertarget{section-1}{%
+\subsection{2022}\label{section-1}}
+
+UCD Geary Institute, KU Leuven (LICOS), University of Strathclyde
+
+\hypertarget{section-2}{%
+\subsection{2021}\label{section-2}}
+
+University of Innsbruck, KU Ingolstadt-Eichstätt
+
+\hypertarget{section-3}{%
+\subsection{2020}\label{section-3}}
+
+University of Groningen, Graduate Institute (Geneva), University of
+St.~Andrews, University of Cardiff
+
+\hypertarget{section-4}{%
+\subsection{2019}\label{section-4}}
+
+Università degli Studi di Milano-Bicocca, Queen's University Belfast,
+ESRI, VU Amsterdam, University of Vilnius, University of Potsdam
+
+\hypertarget{section-5}{%
+\subsection{2018}\label{section-5}}
+
+UCD Geary Institute, Trinity College Dublin, CERGE-EI Prague, Masaryk
+University Brno, Paris School of Economics, University of Trier, LISER
+(Luxembourg)
+
+\hypertarget{section-6}{%
+\subsection{2017}\label{section-6}}
+
+University College Dublin, Paris School of Economics, OECD, University
+of Freiburg, RWI Essen, IOS Regensburg, University of Regensburg
+
+\hypertarget{section-7}{%
+\subsection{2016}\label{section-7}}
+
+SOFI Stockholm, Maastricht University, University of Cologne, University
+of Colorado Denver, University of Leicester, University of Oxford,
+University of Duisburg-Essen, University of Kent, University of
+Bayreuth, University of Bonn
+
+\hypertarget{section-8}{%
+\subsection{2015}\label{section-8}}
+
+University of Mainz, IAB Nuremberg, Modul University Vienna, WU Vienna,
+Concordia University, University of Mannheim, University of Regensburg,
+HHU Dusseldorf
+
+\hypertarget{section-9}{%
+\subsection{2014}\label{section-9}}
+
+DIAL (Paris), NIW (Hannover), University of Hamburg, Temple University,
+George Washington University, HHU Dusseldorf, University of Heidelberg,
+University of Freiburg, IRES-UC Louvain
+
+\hypertarget{section-10}{%
+\subsection{2013}\label{section-10}}
+
+University College Dublin, University of Southern Denmark, IOS
+Regensburg, University of Münster
+
+\hypertarget{section-11}{%
+\subsection{2012}\label{section-11}}
+
+University of Edinburgh, LMU Munich, IZA Bonn, University of Stirling
+
+\hypertarget{section-12}{%
+\subsection{2011}\label{section-12}}
+
+UCD Geary Institute, NUI Maynooth, SSE Riga, Bocconi University,
+Fondazione Eni Enrico Mattei (Milan), IOS Regensburg
+
+\hypertarget{section-13}{%
+\subsection{2010}\label{section-13}}
+
+Trinity College Dublin
+
+\hypertarget{conference-presentations}{%
+\section{Conference Presentations}\label{conference-presentations}}
+
+\hypertarget{section-14}{%
+\subsection{2023}\label{section-14}}
+
+EEA-ESEM Annual Meetings (Barcelona)
+
+\hypertarget{section-15}{%
+\subsection{2022}\label{section-15}}
+
+IZA Workshop on Environment, Health and Labor Markets (online), ECA
+Talks on Forced Migration (World Bank, online)
+
+\hypertarget{section-16}{%
+\subsection{2019}\label{section-16}}
+
+Workshop on Mobility and Migration (Bank of Italy, Rome)
+
+\hypertarget{section-17}{%
+\subsection{2018}\label{section-17}}
+
+Irish Economic Association
+
+\hypertarget{section-18}{%
+\subsection{2017}\label{section-18}}
+
+IZA Annual Migration Meeting (Bonn), IZA Workshop on the Environment and
+Labor Markets, EALE (St.~Gallen), IZA Workshop on the Economics of
+Education
+
+\hypertarget{section-19}{%
+\subsection{2016}\label{section-19}}
+
+SOLE Meetings (Seattle), EALE (Ghent), RGS/RWI Workshop on the Economics
+of Migration (Essen), IZA Workshop on the Economics of Education, ZEW
+Workshop on Migration (Mannheim)
+
+\hypertarget{section-20}{%
+\subsection{2015}\label{section-20}}
+
+IZA Workshop ``Inequality: Causes and Consequences'' (Bonn), SOLE/EALE
+World Congress (Montreal), Workshop Health.Skills.Education (Essen),
+IZA/Worldbank Conference on Employment and Development (Bonn), EEA
+Meeting (Mannheim), Verein für Socialpolitik (M"\{u\}nster), Workshop
+``Immigration in OECD Countries'' (Paris)
+
+\hypertarget{section-21}{%
+\subsection{2014}\label{section-21}}
+
+FERDI Workshop ``International Labor Mobility and Inequality across
+Nations'' (Clermont-Ferrand), RES Annual Conference (Manchester), SOLE
+(Arlington, VA), Annual Migration Meeting (Bonn), EALE (Ljubljana)
+
+\hypertarget{section-22}{%
+\subsection{2013}\label{section-22}}
+
+RES Annual Conference (RHUL, London), NORFACE migration conference (UCL,
+London), EALE (Torino), IZA/SOLE Transatlantic Meeting (Munich), ESPE
+(Aarhus), Worldbank Migration Conference (Ifrane, Morocco), ETSG
+(Birmingham), CEMIR workshop on migration (Munich), IZA/ASE Workshop
+``EU Enlargement and the Labor Markets'' (Bucharest), OECD workshop
+``Immigration in OECD Countries'' (Paris)
+
+\hypertarget{section-23}{%
+\subsection{2012}\label{section-23}}
+
+RES PhD Meeting (London), Irish Economic Association (Dublin), EEA
+Meetings (Málaga), ESEM (Málaga), German Economic Association
+(Göttingen), IZA/CEU Workshop on EU Enlargement and the Labor Markets
+(Budapest), Immigration in OECD Countries (Paris)
+
+\hypertarget{section-24}{%
+\subsection{2011}\label{section-24}}
+
+Mainz Workshop in Labor Economics (Mainz), NORFACE Conference
+``Migration: Economic Change, Social Challenge'' (London), German
+Economic Association (Frankfurt), Irish Society of New Economists
+(Dublin), 2nd TEMPO Conference on International Migration (Vienna), SAE
+(Málaga)
+
+\hypertarget{section-25}{%
+\subsection{2010}\label{section-25}}
+
+EEA Meetings (Glasgow), Irish Society of New Economists (Dublin), RGS
+Doctoral Conference (Bochum), Irish Economic Association (Belfast)
+
+\hypertarget{section-26}{%
+\subsection{2009}\label{section-26}}
+
+Irish Society of New Economists (Limerick)
+
+\hypertarget{supervision}{%
+\section{Supervision}\label{supervision}}
+
+\hypertarget{phd-students}{%
+\subsection{PhD Students}\label{phd-students}}
+
+~~Emanuele Albarosa (UCD, 2018-2022; first placement: Economist,
+IOM/United Nations, Ukraine)
+
+~~Diego Zambiasi (UCD, 2018-2022, first placement: Lecturer with tenure,
+Newcastle University)
+
+~~Stefano Ceolotto (TCD, co-advisor, 2019-2022, first placement:
+Post-Doc, ESRI; currently at CMCC Venice)
+
+~~Michele Gubello (UCD, 2019-2023, first placement: Post-Doc, ESRI)
+
+~~Mohsin Javed (UCD, 2019-)
+
+~~Dimitrios Argyros (UCD, 2021-)
+
+~~Manvi Jindal (UCD, 2021-)
+
+~~Aditi Kharb (UCD, 2022-)
+
+\hypertarget{post-doc}{%
+\subsection{Post-Doc}\label{post-doc}}
+
+Nicolas Apfel (letter writer 2020-2022; PhD at U Regensburg; first
+placement: Post-Doc at U Surrey; currently permanent Lecturer at U
+Southampton)
+
+\hypertarget{m.sc-students-first-placement-in-brackets}{%
+\subsection{M.Sc Students (first placement in
+brackets)}\label{m.sc-students-first-placement-in-brackets}}
+
+Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De
+(UCD, 2019; PhD student KU Leuven), Rafan Alfrayyan (UCD, 2019,
+Economist at Saudi Ministry of Finance), Jeff Concannon (UCD, 2021;
+Analyst at Frontier Economics), Wendy Disch (UCD, 2021; Researcher at
+ESRI), Stephen Fowler (UCD, 2021; MPP Harris School, U Chicago), Anthony
+Jordan (UCD, 2021, Irish Government Economic and Evaluation Service),
+Cormac Harten (UCD, 2022, Analyst at Glenveagh Properties), Cecilie
+Gjendem (UCD, 2022, Analyst at LinkedIn)
+
+\hypertarget{phd-and-habilitation-examinations}{%
+\subsection{PhD and Habilitation
+Examinations}\label{phd-and-habilitation-examinations}}
+
+\textbf{External}
+
+~~Stepan Mikula (Masaryk University Brno, examiner on habilitation
+committee, 2023)
+
+~~Jacopo Bassetto (University of Trento \& University of Bamberg,
+external PhD examiner, 2022)
+
+~~Vahan Sargsyan (CERGE-EI, external PhD examiner, 2018)
+
+\medskip
+
+\textbf{Internal}
+
+~~Xidong Guo (UCD, PhD committee chair, 2022)
+
+~~Ivan Petrov (UCD, PhD committee chair, 2021)
+
+~~Neil Killeen (UCD, internal PhD examiner, 2018)
+
+\hypertarget{reviewing}{%
+\section{Reviewing}\label{reviewing}}
+
+\hypertarget{refereed-journals-75-reports-50-journals}{%
+\subsection{Refereed Journals (75 Reports, 50
+journals)}\label{refereed-journals-75-reports-50-journals}}
+
+American Economic Review (2x), American Economic Review: Insights,
+Review of Economic Studies (2x), Journal of Human Resources (6x),
+Journal of International Economics (2x), Journal of Labor Economics
+(4x), Journal of Public Economics (2x), Journal of the European Economic
+Association (3x), Management Science, Review of Economics \& Statistics
+(3x), Canadian Journal of Economics, European Economic Review (2x),
+Industrial and Labor Relations Review, Journal of Applied Econometrics,
+Journal of Econometrics, Journal of Economic Behavior and Organization
+(3x), Journal of Economic Dynamics and Control, Journal of Economic
+Geography, Journal of Population Economics (3x), Journal of the
+Association of Environmental and Resource Economists, Journal of Urban
+Economics (2x), Labour Economics (5x), Regional Science and Urban
+Economics (3x), Scandinavian Journal of Economics, American Journal of
+Health Economics, Economics of Education Review (5x), Economic Inquiry,
+Economic Policy, Economics Letters, Health Economics, Journal of
+Regional Science, Review of Development Economics, Review of Income and
+Wealth, Review of International Economics, China Economic Review,
+Economic Systems, Economics Letters, Empirical Economics (2x), Fiscal
+Studies, German Economic Review (3x), International Journal of Manpower,
+International Migration Review, IZA Journal of Development and
+Migration, IZA Journal of European Labor Studies, IZA Journal of Labor
+Economics, IZA Journal of Migration, IZA World of Labor (3x), Journal of
+Applied Economics, Journal of Common Market Studies, Journal of
+Development Studies, Migration Studies, Oxford Development Studies,
+Review of the World Economy, Scottish Journal of Political Economy,
+Social Science and Medicine, Socio-Economic Review
+
+\hypertarget{grant-and-research-report-reviews}{%
+\subsection{Grant and Research Report
+Reviews}\label{grant-and-research-report-reviews}}
+
+~~GLM-LIC (IZA and DFID, grant review, 2x)
+
+~~OeNB Jubiläumsfonds (Austrian National Bank, grant review)
+
+~~Czech Science Foundation (grant review, 2x)
+
+~~Economic and Social Resarch Institute (ESRI, report review)
+
+~~Center for Global Development (report review)
+
+\hypertarget{conference-selection-committees}{%
+\subsection{Conference Selection
+Committees}\label{conference-selection-committees}}
+
+~~Annual Meetings of the European Economic Association (2023, 2024)
+
+~~Irish Economic Association (2023, 2024)
+
+~~Annual Conference of the German Economic Association (Verein für
+Socialpolitik, 2017, 2020)
+
+~~DIAL conference ``Barriers to Development'' (2015)
+
+\hypertarget{teaching}{%
+\section{Teaching}\label{teaching}}
+
+\hypertarget{programmes-designed}{%
+\subsection{Programmes Designed}\label{programmes-designed}}
+
+\textbf{Structured MLitt/PhD programme in Economics} (UCD, 2018)
+
+\begin{itemize}
+\tightlist
+\item
+  Created the first PhD programme in Ireland with a full first year of
+  coursework
+\item
+  Tripled enrolment numbers from 17 (2017) to 50 (2020)
+\end{itemize}
+
+\medskip
+
+\textbf{M.Sc Economics and Data Analytics} (UCD, 2023)
+
+\begin{itemize}
+\tightlist
+\item
+  Created an M.Sc programme that is jointly offered by the School of
+  Economics and the School of Mathematics and Statistics
+\item
+  Strong focus on quantitative methods (econometrics, data programming,
+  machine learning)
+\end{itemize}
+
+\hypertarget{innovations}{%
+\subsection{Innovations}\label{innovations}}
+
+YouTube Channel with over 70 videos, over 50k views, over 2,300
+subscribers
+
+intuitivemetrix.com \(\rightarrow\) interactive website for
+undergraduate econometrics
+
+\hypertarget{qualification}{%
+\subsection{Qualification}\label{qualification}}
+
+Professional Certificate in University Teaching \& Learning (University
+College Dublin, 2019)
+
+\hypertarget{courses-taught}{%
+\subsection{Courses taught}\label{courses-taught}}
+
+\textbf{University College Dublin}
+
+~~Causal Inference and Policy Evaluation (M.Sc, 2023-)
+
+~~Public Economics (B.Sc, 2019-2022)
+
+~~Econometrics (Ph.D, 2018-)
+
+~~Introduction to Econometrics (B.Sc, 2018-)
+
+~~Economics Research Workshop (B.Sc, 2018-2020)
+
+\medskip
+
+\textbf{European Business School}
+
+~~Introductory Econometrics (PhD, 2014-2020)
+
+~~European Labour Markets (B.Sc, 2014-2017)
+
+\medskip
+
+\textbf{University of Luxembourg}
+
+~~Economics of Migration (PhD, 2017)
+
+\medskip
+
+\textbf{Universität Regensburg}
+
+~~Economics of Migration (B.Sc, M.Sc, 2018)
+
+~~Macroeconomics (B.Sc tutorial, 2006-2007)
+
+~~Microeconomics (B.Sc tutorial, 2008)
+
+\medskip
+
+\textbf{Trinity College Dublin}
+
+~~Microeconomics (M.Sc, tutorial, 2009-2012)
+
+\medskip
+
+\textbf{TU Dresden}
+
+~~Causal Inference (PhD Course, 2024)
+
+\hypertarget{guest-lectures-and-masterclasses}{%
+\subsection{Guest Lectures and
+Masterclasses}\label{guest-lectures-and-masterclasses}}
+
+~~Workshop: R for Practitioners (IGEES, 2023-)
+
+~~Masterclass: New Developments in Causal Inference (Central Bank of
+Ireland, 2023)
+
+~~Guest lecture: Why International Experience Matters (University of
+Oldenburg, PhD class, scheduled 2023)
+
+~~Guest lecture: the Welfare Impact of International Migration
+(University of Groningen, MSc class, scheduled 2023)
+
+~~Masterclass Regression Discontinuity Design (University of Regensburg,
+MSc class, 2023)
+
+~~Masterclass in Causal Inference (Geary Institute for Public Policy,
+2023)
+
+~~Common Pitfalls in Causal Research Designs (Irish Early Career
+Workshop, TU Dublin, 2023)
+
+~~The 2021 Nobel Prize in Economics (UCD, 2022)
+
+~~Common Pitfalls in Causal Research Designs (Eurofound, Dublin, 2022)
+
+~~Causal Research Designs with DAGs (Örebro University, 2022)
+
+~~Causal Inference for Social Scientists (UCD Social Sciences Summer
+School, 2021)
+
+~~New Developments in Causal Inference (Central Bank of Ireland, 2019)
+
+~~New Developments in Microeconometrics (Central Bank of Ireland, 2018)
+
+~~The Economics of Brain Drain and Brain Gain (University of Mannheim,
+2015)
+
+\hypertarget{editorships}{%
+\subsection{Editorships}\label{editorships}}
+
+Research in Labor Economics (Co-Editor, 2022-)
+
+IZA Journal of Labor Economics (Managing Editor, 2013)
+
+\hypertarget{managerial-roles}{%
+\subsection{Managerial Roles}\label{managerial-roles}}
+
+\textbf{University College Dublin}
+
+~~Programme Director, M.Sc Economics and Data Analytics (2023-)
+
+~~Director of Research and Postgraduate Studies, UCD School of Economics
+(2022-)
+
+~~Director of the MLitt/PhD Programme in Economics (2018-2021)
+
+~~Member of the Executive Board of the School of Economics (2019-)
+
+\medskip
+
+\textbf{Institute of Labor Economics (IZA)}
+
+~~Deputy Director of the Programme Area \emph{Mobility and Migration}
+(2015-2021)
+
+~~Manager of the guest programme and seminar series (2013-2017)
+
+\hypertarget{conference-organization}{%
+\subsection{Conference Organization}\label{conference-organization}}
+
+IZA Annual Migration Meeting (co-organizer, Geary Institute,
+Dublin/Ireland, 2019)
+
+IZA Annual Migration Meeting (co-organizer, Harvard Kennedy School,
+Cambridge/MA, 2018)
+
+Irish Postgraduate and Early Career Economics Conference (co-organizer,
+Geary Institute, Dublin/Ireland, 2018)
+
+IZA Annual Migration Meeting (co-organizer, IZA, Bonn/Germany, 2017)
+
+IZA Annual Migration Meeting (sole organizer, IZA, Bonn/Germany, 2016)
+
+IZA Annual Migration Meeting (co-organizer, IZA, Dakar/Senegal, 2015)
+
+Irish Society of New Economists (ISNE, Trinity College Dublin, 2010)
+
+\hypertarget{skills}{%
+\section{Skills}\label{skills}}
+
+\hypertarget{software}{%
+\subsection{Software}\label{software}}
+
+R, RMarkdown, Stata, LaTeX, HTML
+
+\hypertarget{languages}{%
+\subsection{Languages}\label{languages}}
+
+German (native), English (fluent), French, Polish (good), Italian,
+Czech, Russian (some)
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\textbf{Prof. Gaia Narciso}, Trinity College Dublin, Department of
+Economics of Economics. \href{mailto:narcisog@tcd.ie}{narcisog@tcd.ie}
+
+\textbf{Prof. Ron Davies}, University College Dublin, School of
+Economics. \href{mailto:ronald.davies@ucd.ie}{ronald.davies@ucd.ie}
+
+\textbf{Prof. Paul Devereux}, University College Dublin, School of
+Economics. \href{mailto:paul.devereux@ucd.ie}{paul.devereux@ucd.ie}
+
+\textbf{Prof. Daniel Hamermesh}, University of Texas at Austin,
+\href{mailto:hamermes@utexas.edu}{hamermes@utexas.edu}
+
+\end{document}
