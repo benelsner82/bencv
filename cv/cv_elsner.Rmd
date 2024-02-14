@@ -573,13 +573,3 @@ R, RMarkdown, Stata, LaTeX, HTML
 ## Languages
 German (native), English (fluent), French, Polish (good), Italian, Czech, Russian (some)
 
-# References 
-
-
-\textbf{Prof. Gaia Narciso}, Trinity College Dublin, Department of Economics of Economics. \href{mailto:narcisog@tcd.ie}{narcisog@tcd.ie}
-
-\textbf{Prof. Ron Davies}, University College Dublin, School of Economics. \href{mailto:ronald.davies@ucd.ie}{ronald.davies@ucd.ie}
-
-\textbf{Prof. Paul Devereux}, University College Dublin, School of Economics. \href{mailto:paul.devereux@ucd.ie}{paul.devereux@ucd.ie}
-
-\textbf{Prof. Daniel Hamermesh}, University of Texas at Austin, \href{mailto:hamermes@utexas.edu}{hamermes@utexas.edu}
