@@ -162,10 +162,6 @@ bibliography_entries("workingpapers.bib") %>%
 
 
 
-# Work in Progress 
-
-
-1. Brexit had no Impact on Irish Exporters (joint with Eoin Flaherty and Stefanie Haller)
 
 
 
@@ -341,7 +337,11 @@ Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; 
 
 **External**
 
-|   Davit Adunts (CERGE-EI external PhD examiner, 2023)
+|   Stefano Cellini (University of Surrey, PhD examiner, scheduled for 2025)
+
+|   Milan Van Steenvoort (Maastricht University, PhD examiner, 2024)
+
+|   Davit Adunts (CERGE-EI, external PhD examiner, 2023)
 
 |   Stepan Mikula (Masaryk University Brno, examiner on habilitation committee, 2023)
 
@@ -492,6 +492,8 @@ Professional Certificate in University Teaching \& Learning (University College 
 
 ## Guest Lectures and Masterclasses
 
+|   Masterclass: Impact Evaluation (GLM|LIC, J-PAL MENA and UNICEF Egypt, Cairo, 2024)
+
 |   Workshop: R for Practitioners (IGEES, 2023-)
 
 |   Masterclass: New Developments in Causal Inference (Central Bank of Ireland, 2023)
@@ -500,7 +502,7 @@ Professional Certificate in University Teaching \& Learning (University College 
 
 |   Guest lecture: the Welfare Impact of International Migration (University of Groningen, MSc class, scheduled 2023)
 
-|   Masterclass Regression Discontinuity Design (University of Regensburg, MSc class, 2023)
+|   Masterclass Regression Discontinuity Design (University of Regensburg, MSc class, 2023, 2024)
 
 |   Masterclass in Causal Inference (Geary Institute for Public Policy, 2023)
 
