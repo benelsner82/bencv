@@ -48,6 +48,7 @@ My research interests lie at the intersection of labour economics, international
 library(tibble)
 tribble(
   ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Head of School", "2024-", "School of Economics, University College Dublin", "Dublin, Ireland",
   "Professor", "2023-", "University College Dublin", "Dublin, Ireland",
   "Research Fellow", "2018-", "Institute of Labor Economics (IZA)", "Bonn, Germany",
   "Research Fellow", "2016-", "Centre for Research and Analysis of Migration (CReAM), University College London", "London, UK",
@@ -161,11 +162,7 @@ bibliography_entries("workingpapers.bib") %>%
 
 
 
-# Work in Progress 
 
-
-1. Brexit had no Impact on Irish Exporters (joint with Eoin Flaherty and Stefanie Haller)
-2. Gender Norms and Time Use: Pan-European Evidence from School Closures during Covid-19 (joint with Manvi Jindal, Massimiliano Mascherini and Sanna Nivakoski)
 
 
 
@@ -340,7 +337,11 @@ Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; 
 
 **External**
 
-|   Davit Adunts (CERGE-EI external PhD examiner, 2023)
+|   Stefano Cellini (University of Surrey, PhD examiner, scheduled for 2025)
+
+|   Milan Van Steenvoort (Maastricht University, PhD examiner, 2024)
+
+|   Davit Adunts (CERGE-EI, external PhD examiner, 2023)
 
 |   Stepan Mikula (Masaryk University Brno, examiner on habilitation committee, 2023)
 
@@ -363,7 +364,7 @@ Christoph Deuster (U Bonn, 2013; PhD student UC Louvain), Anusha De (UCD, 2019; 
 
 ## Refereed Journals (76 Reports, 51 journals)
 
-American Economic Review (2x), American Economic Review: Insights, Review of Economic Studies (2x), Journal of Human Resources (6x), Journal of International Economics (2x), Journal of Labor Economics (4x), Journal of Public Economics (2x), Journal of the European
+American Economic Review (2x), American Economic Review: Insights, Review of Economic Studies (2x), Journal of Environmental Economics and Management, Journal of Human Resources (6x), Journal of International Economics (2x), Journal of Labor Economics (4x), Journal of Public Economics (2x), Journal of the European
 Economic Association (3x), Management Science, Review of Economics & Statistics (3x), Canadian Journal of Economics, European Economic Review (2x), Industrial and Labor Relations Review, Journal of Applied Econometrics, Journal of Econometrics, Journal of
 Economic Behavior and Organization (3x), Journal of Economic Dynamics and
 Control,  Journal of Economic Geography, Journal of Population Economics (3x), Journal of the Association of Environmental and Resource Economists, Journal of Urban Economics (2x), Labour Economics (5x),
@@ -424,7 +425,7 @@ of Labor (3x), Journal of Applied Economics, Journal of Common Market Studies, J
 
 ## Innovations
 
-YouTube Channel with over 70 videos, over 50k views, over 2,300 subscribers
+YouTube Channel with over 70 videos, over 120k views, over 2,900 subscribers
 
 intuitivemetrix.com $\rightarrow$ interactive website for undergraduate econometrics
 
@@ -491,6 +492,8 @@ Professional Certificate in University Teaching \& Learning (University College 
 
 ## Guest Lectures and Masterclasses
 
+|   Masterclass: Impact Evaluation (GLM|LIC, J-PAL MENA and UNICEF Egypt, Cairo, 2024)
+
 |   Workshop: R for Practitioners (IGEES, 2023-)
 
 |   Masterclass: New Developments in Causal Inference (Central Bank of Ireland, 2023)
@@ -499,7 +502,7 @@ Professional Certificate in University Teaching \& Learning (University College 
 
 |   Guest lecture: the Welfare Impact of International Migration (University of Groningen, MSc class, scheduled 2023)
 
-|   Masterclass Regression Discontinuity Design (University of Regensburg, MSc class, 2023)
+|   Masterclass Regression Discontinuity Design (University of Regensburg, MSc class, 2023, 2024)
 
 |   Masterclass in Causal Inference (Geary Institute for Public Policy, 2023)
 
@@ -527,9 +530,11 @@ Research in Labor Economics (Co-Editor, 2022-)
 IZA Journal of Labor Economics (Managing Editor, 2013)
 
 
-## Managerial Roles
+## Leadership Roles
 
 **University College Dublin**
+
+|   Head of School, UCD School of Economics (starting September 2024)
 
 |   Programme Director, M.Sc Economics and Data Analytics (2023-)
 

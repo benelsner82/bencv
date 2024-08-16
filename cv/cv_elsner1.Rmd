@@ -1,0 +1,106 @@
+---
+name: Benjamin
+surname: Elsner
+address: "University College Dublin, School of Economics, Belfield, Dublin 4, Ireland"
+phone: +353 1 716 8446
+www: benjaminelsner.com
+email: "benjamin.elsner@ucd.ie"
+twitter: ben_elsner
+github: benelsner82
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+library(vitae)
+library(dplyr)
+library(scholar)
+
+scholarben <- get_profile("jvyIv10AAAAJ")
+
+#scholarben <- as.data.frame(1)
+#scholarben$total_cites <- 1
+#scholarben$h_index <- 1
+```
+
+
+
+# Research Interests
+
+My research interests lie at the intersection of labour economics, international economics, and environmental economics. I currently pursue three strands of research: 
+\medskip
+
+1. impact of **migration** on the sending and receiving countries,
+
+2. impact of the **environment** (especially pollution) on human capital formation, 
+
+3. the effect of **peers** and teachers on human capital,
+
+
+
+# Current Positions
+
+```{r}
+library(tibble)
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Head of School", "2024-", "School of Economics, University College Dublin", "Dublin, Ireland",
+  "Professor", "2023-", "University College Dublin", "Dublin, Ireland",
+  "Research Fellow", "2018-", "Institute of Labor Economics (IZA)", "Bonn, Germany",
+  "Research Fellow", "2016-", "Centre for Research and Analysis of Migration (CReAM), University College London", "London, UK",
+  "Research Fellow", "2018-", "Geary Institute for Public Policy", "Dublin, Ireland",  
+) %>% 
+  detailed_entries(Position, Year, Institution)
+```
+
+
+
+# Past Positions
+
+```{r}
+library(tibble)
+tribble(
+  ~ Position, ~ Year, ~ Institution, ~ Where,
+  "Assistant Professor", "2018-2023", "University College Dublin", "Dublin, Ireland",  
+  "Senior Research Associate", "2014-2017", "Institute of Labor Economics (IZA)", "Bonn, Germany",
+  "Research Associate", "2012-2014", "Institute of Labor Economics (IZA)", "Bonn, Germany",
+) %>% 
+  detailed_entries(Position, Year, Institution)
+```
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "PhD Economics", "2013", "Trinity College Dublin", "Dublin, Ireland",
+  "M.A. Economics", "2008", "Universität Regensburg", "Regensburg, Germany",
+) %>% 
+  detailed_entries(Degree, Year, Institution)
+```
+
+
+
+# Publications
+
+Google scholar: **Number of citations**: `r scholarben$total_cites`; **h-index**: `r scholarben$h_index`
+
+## Refereed Journals
+
+
+```{r}
+knitr::write_bib(c("jpopecon13"), 
+                 "publications1.bib")
+
+bibliography_entries("publications1.bib") %>%
+  arrange(desc(issued$year))
+
+```
+
