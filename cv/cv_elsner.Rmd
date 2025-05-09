@@ -193,6 +193,7 @@ tribble(
 library(tibble)
 tribble(
   ~ Award, ~ Year, ~ Details,
+  "Brendan Walsh Prize", "2025", "Best Paper Published in the Economic and Social Review",
   "Teaching Excellence Award", "2022", "UCD College of Social Sciences and Law",
   "Best Paper Award", "2018", "Spring Meetings of Young Economists",  
   "Novartis Prize", "2018", "Best Paper in Health Economics, Irish Economic Association", 
@@ -318,7 +319,7 @@ Irish Society of New Economists (Limerick)
 
 |   Michele Gubello (UCD, 2019-2023, first placement: Post-Doc, ESRI) 
 
-|   Mohsin Javed (UCD, 2019-, first placement: Assistant Professor, DCU) 
+|   Mohsin Javed (UCD, 2019-2024, first placement: Assistant Professor, DCU) 
 
 |   Dimitrios Argyros (UCD, 2021-) 
 
@@ -493,6 +494,8 @@ Professional Certificate in University Teaching \& Learning (University College 
 
 ## Guest Lectures and Masterclasses
 
+|   Masterclass: Econometrics (Department of Children, Equality, Disability, Inclusion and Youth, Ireland, 2025)
+
 |   Masterclass: Impact Evaluation (GLM|LIC, J-PAL MENA and UNICEF Egypt, Cairo, 2024)
 
 |   Workshop: R for Practitioners (IGEES, 2023-)
@@ -536,6 +539,8 @@ IZA Journal of Labor Economics (Managing Editor, 2013)
 **University College Dublin**
 
 |   Head of School, UCD School of Economics (starting September 2024)
+
+|   Member of the UMT Digital Campus Group (2025-)
 
 |   Programme Director, M.Sc Economics and Data Analytics (2023-)
 
